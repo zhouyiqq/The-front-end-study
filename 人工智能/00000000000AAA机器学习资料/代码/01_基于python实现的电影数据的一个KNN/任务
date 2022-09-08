@@ -1,0 +1,30 @@
+1、等权==》加权
+2、KNN的伪代码
+
+class KNN():
+    def __init__(K):
+        self.model = None
+        pass
+
+    def train(X,Y):
+        “读数据下来要存储”
+
+        return self.model
+
+
+    def predict(X,is_weight=True):
+        “X 二维列表”
+        “is_weight 是否采用加权投票”
+
+        return X对应的预测标签列表
+
+
+    def score(X,Y):
+        "准确率"
+        pass
+
+
+
+
+第一个任务：没有写伪代码的补充完整
+第二个，比较一下自己写的和调包的时候使用KDTree和暴力求解的效率【计算一下预测的时间】
